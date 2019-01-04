@@ -11,10 +11,12 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EmployeeDetailsInfo" expanded="True">
-            <Node name="EmployeeDetailsInfo" expanded="True" selected="True">
+            <Node name="EmployeeDetailsInfo" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">

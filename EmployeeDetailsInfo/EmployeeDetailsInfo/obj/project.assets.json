@@ -12083,11 +12083,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lindombuthuma/Projects/EmployeeDetailsInfo/EmployeeDetailsInfo/EmployeeDetailsInfo.csproj",
+      "projectUniqueName": "/Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/EmployeeDetailsInfo.csproj",
       "projectName": "EmployeeDetailsInfo",
-      "projectPath": "/Users/lindombuthuma/Projects/EmployeeDetailsInfo/EmployeeDetailsInfo/EmployeeDetailsInfo.csproj",
+      "projectPath": "/Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/EmployeeDetailsInfo.csproj",
       "packagesPath": "/Users/lindombuthuma/.nuget/packages/",
-      "outputPath": "/Users/lindombuthuma/Projects/EmployeeDetailsInfo/EmployeeDetailsInfo/obj",
+      "outputPath": "/Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
