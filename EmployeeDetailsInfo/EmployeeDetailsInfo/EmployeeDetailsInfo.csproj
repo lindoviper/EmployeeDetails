@@ -15,4 +15,29 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Views\Img\img1.jpeg" />
+    <None Remove="Views\Img\img10.jpg" />
+    <None Remove="Views\Img\img2.jpg" />
+    <None Remove="Views\Home\img1.jpg" />
+    <None Remove="Views\Home\img10.jpg" />
+    <None Remove="Views\Home\img2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\css\img2.jpg" />
+    <Content Remove="wwwroot\css\Img\img1.jpeg" />
+    <Content Remove="wwwroot\css\Img\img10.jpg" />
+    <Content Remove="wwwroot\css\Img\img2.jpg" />
+    <Content Remove="wwwroot\css\Img\img3.jpg" />
+    <Content Remove="wwwroot\css\Img\img4.jpg" />
+    <Content Remove="wwwroot\css\Img\img5.jpg" />
+    <Content Remove="wwwroot\css\Img\img6.jpg" />
+    <Content Remove="wwwroot\css\Img\img7.jpg" />
+    <Content Remove="wwwroot\css\Img\img8.jpeg" />
+    <Content Remove="wwwroot\css\Img\img9.jpg" />
+    <Content Remove="wwwroot\css\img1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\css\Img\" />
+  </ItemGroup>
 </Project>

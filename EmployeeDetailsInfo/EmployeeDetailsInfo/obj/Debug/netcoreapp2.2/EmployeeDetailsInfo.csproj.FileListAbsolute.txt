@@ -34,7 +34,6 @@
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/bin/Debug/netcoreapp2.2/EmployeeDetailsInfo.pdb
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/bin/Debug/netcoreapp2.2/EmployeeDetailsInfo.Views.dll
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/bin/Debug/netcoreapp2.2/EmployeeDetailsInfo.Views.pdb
-/Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/EmployeeDetailsInfo.csprojAssemblyReference.cache
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/EmployeeDetailsInfo.csproj.CoreCompileInputs.cache
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/EmployeeDetailsInfo.RazorAssemblyInfo.cache
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/EmployeeDetailsInfo.RazorAssemblyInfo.cs
@@ -43,8 +42,9 @@
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/EmployeeDetailsInfo.TagHelpers.input.cache
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/EmployeeDetailsInfo.TagHelpers.output.cache
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/EmployeeDetailsInfo.RazorCoreGenerate.cache
+/Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/Razor/Views/Home/AllEmployees.g.cshtml.cs
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
-/Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/Razor/Views/Home/NewEmployee.g.cshtml.cs
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
@@ -57,3 +57,4 @@
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/EmployeeDetailsInfo.dll
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/EmployeeDetailsInfo.pdb
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/EmployeeDetailsInfo.csproj.CopyComplete
+/Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/EmployeeDetailsInfo.csprojAssemblyReference.cache
