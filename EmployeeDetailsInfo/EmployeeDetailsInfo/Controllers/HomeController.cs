@@ -21,9 +21,13 @@ namespace EmployeeDetailsInfo.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult AllEmployees()
         {
-            return View();
+            var employeeDataSaver = new EmployeeDataSaver();
+            var allEmployees = employeeDataSaver.GetEmployeeInformation();
+
+            return View(allEmployees);
         }
 
         [HttpPost]
@@ -34,6 +38,7 @@ namespace EmployeeDetailsInfo.Controllers
         {
             var EmployeeInformation = new EmployeeInformation()
             {
+                EmployeeId = new Guid(),
                 FirstName = firstName,
                 LastName = lastName,
                 DateOfBirth = dateOfBirth,
@@ -43,13 +48,46 @@ namespace EmployeeDetailsInfo.Controllers
                 WebAddress = webAddress,
                 Facebook = facebook,
                 Instagram = instagram,
-                Twitter = twitter
+                Twitter = twitter,
+                Address1 = address1,
+                Address2 = address2
             };
-            var foo = new EmployeeDataSaver();
-            foo.Save(EmployeeInformation);
+            var employeeDataSaver = new EmployeeDataSaver();
+            employeeDataSaver.Save(EmployeeInformation);
 
             return RedirectToAction("Index");
         }
+
+        [HttpPost]
+        public IActionResult UpdateEmployeeInformation
+(string title, DateTime dateOfBirth, string firstName,
+    string lastName, string gender, string email,
+    long phone, string webAddress, string facebook, string instagram, string twitter, string address1, string address2)
+        {
+            var EmployeeInformation = new EmployeeInformation()
+            {
+                EmployeeId = new Guid(),
+                FirstName = firstName,
+                LastName = lastName,
+                DateOfBirth = dateOfBirth,
+                Gender = gender,
+                Email = email,
+                Phone = phone,
+                WebAddress = webAddress,
+                Facebook = facebook,
+                Instagram = instagram,
+                Twitter = twitter,
+                Address1 = address1,
+                Address2 = address2
+            };
+            var employeeDataSaver = new EmployeeDataSaver();
+            var allEmployees = employeeDataSaver.GetEmployeeInformation();
+
+            employeeDataSaver.Save(EmployeeInformation);
+
+            return RedirectToAction("Index");
+        }
+
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -57,19 +95,5 @@ namespace EmployeeDetailsInfo.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-    }
-
-    public class EmployeeInformation
-    {
-        public string FirstName { get; internal set; }
-        public DateTime DateOfBirth { get; internal set; }
-        public string Email { get; internal set; }
-        public string LastName { get; internal set; }
-        public string Gender { get; internal set; }
-        public long Phone { get; internal set; }
-        public string WebAddress { get; internal set; }
-        public string Facebook { get; internal set; }
-        public string Instagram { get; internal set; }
-        public string Twitter { get; internal set; }
     }
 }

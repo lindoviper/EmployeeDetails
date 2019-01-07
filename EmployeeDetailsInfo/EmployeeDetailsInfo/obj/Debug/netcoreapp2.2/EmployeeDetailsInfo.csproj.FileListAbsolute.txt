@@ -57,4 +57,3 @@
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/EmployeeDetailsInfo.dll
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/EmployeeDetailsInfo.pdb
 /Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/EmployeeDetailsInfo.csproj.CopyComplete
-/Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/obj/Debug/netcoreapp2.2/EmployeeDetailsInfo.csprojAssemblyReference.cache

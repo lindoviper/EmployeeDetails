@@ -4,6 +4,7 @@ using System.Text;
 using Newtonsoft.Json;
 using System.Reflection;
 using System.Collections.Generic;
+using EmployeeDetailsInfo.Models;
 
 namespace EmployeeDetailsInfo.Controllers
 {
@@ -38,27 +39,11 @@ namespace EmployeeDetailsInfo.Controllers
             try
             {
 
-                if (!File.Exists(path))
+                using (StreamWriter sw = File.AppendText(path))
                 {
-                    using (FileStream fs = File.Create(path))
-                    {
+                    var employeeJsonData = JsonConvert.SerializeObject(employeeInformation);
+                    sw.WriteLine(employeeJsonData);
 
-                        var employeeJsonData = JsonConvert.SerializeObject(employeeInformation);
-
-                        var employeeData = new UTF8Encoding(true).GetBytes(employeeJsonData);
-
-                        fs.Write(employeeData);
-                    }
-                }
-
-                else if (File.Exists(path))
-                {
-                    using (StreamWriter sw = File.AppendText(path))
-                    {
-                        var employeeJsonData = JsonConvert.SerializeObject(employeeInformation);
-                        sw.WriteLine(employeeJsonData);
-
-                    }
                 }
 
             }

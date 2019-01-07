@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{70E2EC8A-6664-4709-BE4C-B57B22E63A08}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeDetailsInfo/Controllers/EmployeeDataSaver.cs">
     <Files>
-      <File FileName="EmployeeDetailsInfo/Controllers/HomeController.cs" Line="64" Column="41" />
-      <File FileName="EmployeeDetailsInfo/Views/Shared/_Layout.cshtml" Line="38" Column="132" />
+      <File FileName="EmployeeDetailsInfo/Controllers/HomeController.cs" Line="25" Column="44" />
+      <File FileName="EmployeeDetailsInfo/Views/Shared/_Layout.cshtml" Line="66" Column="56" />
       <File FileName="EmployeeDetailsInfo/Views/Home/Index.cshtml" Line="1" Column="17" />
       <File FileName="EmployeeDetailsInfo/Views/Home/NewEmployee.cshtml" Line="45" Column="94" />
-      <File FileName="EmployeeDetailsInfo/Views/Home/AllEmployees.cshtml" Line="2" Column="1" />
-      <File FileName="EmployeeDetailsInfo/Models/ErrorViewModel.cs" Line="1" Column="1" />
-      <File FileName="EmployeeDetailsInfo/Controllers/EmployeeDataSaver.cs" Line="10" Column="13" />
+      <File FileName="EmployeeDetailsInfo/Views/Home/AllEmployees.cshtml" Line="41" Column="19" />
+      <File FileName="EmployeeDetailsInfo/wwwroot/js/site.js" Line="22" Column="3" />
+      <File FileName="EmployeeDetailsInfo/Models/EmployeeInformation.cs" Line="5" Column="18" />
+      <File FileName="EmployeeDetailsInfo/Controllers/EmployeeDataSaver.cs" Line="35" Column="64" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -44,7 +45,10 @@
   <MonoDevelop.Ide.ItemProperties.EmployeeDetailsInfo PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/Controllers/HomeController.cs" relfile="EmployeeDetailsInfo/Controllers/HomeController.cs" line="30" column="19" />
+      <Breakpoint file="/Users/lindombuthuma/Projects/EmployeeDetails/EmployeeDetailsInfo/EmployeeDetailsInfo/Controllers/EmployeeDataSaver.cs" relfile="EmployeeDetailsInfo/Controllers/EmployeeDataSaver.cs" line="23" column="22" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
