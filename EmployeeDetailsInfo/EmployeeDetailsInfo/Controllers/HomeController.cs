@@ -58,38 +58,6 @@ namespace EmployeeDetailsInfo.Controllers
             return RedirectToAction("Index");
         }
 
-        [HttpPost]
-        public IActionResult UpdateEmployeeInformation
-(string title, DateTime dateOfBirth, string firstName,
-    string lastName, string gender, string email,
-    long phone, string webAddress, string facebook, string instagram, string twitter, string address1, string address2)
-        {
-            var EmployeeInformation = new EmployeeInformation()
-            {
-                EmployeeId = new Guid(),
-                FirstName = firstName,
-                LastName = lastName,
-                DateOfBirth = dateOfBirth,
-                Gender = gender,
-                Email = email,
-                Phone = phone,
-                WebAddress = webAddress,
-                Facebook = facebook,
-                Instagram = instagram,
-                Twitter = twitter,
-                Address1 = address1,
-                Address2 = address2
-            };
-            var employeeDataSaver = new EmployeeDataSaver();
-            var allEmployees = employeeDataSaver.GetEmployeeInformation();
-
-            employeeDataSaver.Save(EmployeeInformation);
-
-            return RedirectToAction("Index");
-        }
-
-
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
