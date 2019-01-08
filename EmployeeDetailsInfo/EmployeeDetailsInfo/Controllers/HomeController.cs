@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using EmployeeDetailsInfo.Models;
+using EmployeeDetailsInfo.Repository;
 using Newtonsoft.Json;
 
 namespace EmployeeDetailsInfo.Controllers
@@ -24,7 +25,7 @@ namespace EmployeeDetailsInfo.Controllers
         [HttpGet]
         public IActionResult AllEmployees()
         {
-            var employeeDataSaver = new EmployeeDataSaver();
+            var employeeDataSaver = new EmployeeDataRepository();
             var allEmployees = employeeDataSaver.GetEmployeeInformation();
 
             return View(allEmployees);
@@ -52,7 +53,7 @@ namespace EmployeeDetailsInfo.Controllers
                 Address1 = address1,
                 Address2 = address2
             };
-            var employeeDataSaver = new EmployeeDataSaver();
+            var employeeDataSaver = new EmployeeDataRepository();
             employeeDataSaver.Save(EmployeeInformation);
 
             return RedirectToAction("Index");

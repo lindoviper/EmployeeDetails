@@ -1,31 +1,18 @@
 ﻿<Properties StartupConfiguration="{70E2EC8A-6664-4709-BE4C-B57B22E63A08}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeDetailsInfo/Views/Home/NewEmployee.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeInformationTests/UnitTest1.cs">
     <Files>
-      <File FileName="EmployeeDetailsInfo/Controllers/HomeController.cs" Line="26" Column="9" />
-      <File FileName="EmployeeDetailsInfo/Views/Shared/_Layout.cshtml" Line="71" Column="1" />
-      <File FileName="EmployeeDetailsInfo/Views/Home/Index.cshtml" Line="3" Column="24" />
-      <File FileName="EmployeeDetailsInfo/wwwroot/css/site.css" Line="40" Column="27" />
-      <File FileName="EmployeeDetailsInfo/Views/Home/NewEmployee.cshtml" Line="7" Column="23" />
+      <File FileName="EmployeeDetailsInfo/Controllers/HomeController.cs" Line="22" Column="27" />
+      <File FileName="EmployeeDetailsInfo/Repository/EmployeeDataRepository.cs" Line="34" Column="24" />
+      <File FileName="EmployeeInformationTests/UnitTest1.cs" Line="6" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EmployeeDetailsInfo" expanded="True">
-            <Node name="EmployeeDetailsInfo" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="NewEmployee.cshtml" selected="True" />
-                </Node>
-                <Node name="Shared" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="Img" expanded="True" />
-                </Node>
-                <Node name="js" expanded="True" />
-              </Node>
+            <Node name="EmployeeDetailsInfo" expanded="True" />
+            <Node name="EmployeeInformationTests" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="UnitTest1.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -37,6 +24,11 @@
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="EmployeeDetailsInfo" selected="True" />
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

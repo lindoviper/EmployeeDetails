@@ -6,9 +6,9 @@ using System.Reflection;
 using System.Collections.Generic;
 using EmployeeDetailsInfo.Models;
 
-namespace EmployeeDetailsInfo.Controllers
+namespace EmployeeDetailsInfo.Repository
 {
-    public class EmployeeDataSaver
+    public class EmployeeDataRepository
     {
 
         public List<EmployeeInformation> GetEmployeeInformation()
@@ -17,17 +17,27 @@ namespace EmployeeDetailsInfo.Controllers
             string path = Path.Combine(execPath, "EmployeeData.txt");
             var allEmployees = new List<EmployeeInformation>();
 
-            using (StreamReader sr = File.OpenText(path))
+            try
             {
-                string s = "";
-                while ((s = sr.ReadLine()) != null)
+                using (StreamReader sr = File.OpenText(path))
                 {
-                    var employee = JsonConvert.DeserializeObject<EmployeeInformation>(s);
-                    allEmployees.Add(employee);
+                    string s = "";
+                    while ((s = sr.ReadLine()) != null)
+                    {
+                        var employee = JsonConvert.DeserializeObject<EmployeeInformation>(s);
+                        allEmployees.Add(employee);
 
+                    }
                 }
+                return allEmployees;
+
             }
-            return allEmployees;
+            catch (Exception ex)
+            {
+                Console.WriteLine($"There are no employees saved, click on New Employee tab. See inner exception {ex.InnerException}");
+
+            }
+            return new List<EmployeeInformation>();
 
         }
 
